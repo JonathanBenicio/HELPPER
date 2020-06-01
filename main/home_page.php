@@ -13,13 +13,15 @@ if(isset($_POST['OK'])) {
     $resultado = cadastro_Cliente( $nome, $email, $telefone, $cep, $logradouro, $numero, $bairro, $cidade, $estado);
            
     if($resultado->rowCount() == 1){
-        echo "Cadastrado com sucesso";
+        echo "Cliente Cadastrado com sucesso";
         Header("Location: home_page.php");
     }
 }
 
 if(isset($_GET['idParaExcluir'])) {
     excluir_Cliente($_GET['idParaExcluir']); 
+    echo "Cliente Excluido com sucesso";
+        Header("Location: home_page.php");
 }
 
 
@@ -71,7 +73,7 @@ if(isset($_GET['idParaExcluir'])) {
 
         <table borde="2" bordercolor="#EEE" >
             <tr>
-                <td><h3>Rotinas cadastradas no sistema</h3></td>
+                <td><h3>Clientes Cadastrados</h3></td>
             </tr>
             
             <tr>
