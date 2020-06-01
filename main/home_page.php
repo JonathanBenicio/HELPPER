@@ -86,7 +86,6 @@ if(isset($_GET['idParaExcluir'])) {
                 <td><strong>Bairro</strong></td>                        
                 <td><strong>Cidade</strong></td>                        
                 <td><strong>Estado</strong></td> 
-                <td><strong>Estado</strong></td> 
                 
                                        
             </tr>
