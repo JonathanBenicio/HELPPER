@@ -32,7 +32,7 @@ if(isset($_GET['idParaExcluir'])) {
 <html>
 <head>
  		<meta charset="utf-8">
- 		<title>Sistema de Login</title>
+ 		<title>Sistema de Cadastro de Cliente</title>
 </head>
 
 <body>
