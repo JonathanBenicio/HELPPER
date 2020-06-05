@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `helpper`
 --
-CREATE DATABASE helpper
+CREATE DATABASE helpper;
 -- --------------------------------------------------------
 
 --
